@@ -12,7 +12,7 @@ The heart buttons save a visitor's shortlist only in localStorage on their curre
 
 ## Sources and editorial choices
 
-Initial edition: 2026-10-22. Buenos Aires has six researched starting suggestions; public source links are on each card. NYC has selected recommendations adapted from a June 2023 email, plus selected venues from the shared NYC Google Maps recommendations list reviewed on 2026-10-22. Email text, addresses, personal context, private locations, ratings, and reviews are not bundled. No claim is made that every venue has been personally visited or that historic menu recommendations remain available. Venue information can change; follow Maps and official links before visiting.
+Initial edition: 2026-10-22. Buenos Aires has 27 entries: six researched starting suggestions plus 21 additions from the user-provided Buenos Aires PDF. Café Tortoni and El Rosedal were merged with existing entries, retaining their IDs. NYC has selected recommendations adapted from a June 2023 email, plus selected venues from the shared NYC Google Maps recommendations list reviewed on 2026-10-22. Email text, addresses, personal context, private locations, ratings, and reviews are not bundled. No claim is made that every venue has been personally visited or that historic menu recommendations remain available. Venue information can change; follow Maps and official links before visiting.
 
 The original Dante email URL was malformed. Caffè Dante on MacDougal Street is used as an explicit editorial interpretation and labeled accordingly. Massara On Park, marked permanently closed in Maps, and the ambiguous dropped pin were excluded. The guide includes a selection, not all 47 list entries.
 
@@ -25,3 +25,7 @@ For larger imports, review an exported list (for example Google Takeout) locally
 ## Deployment
 
 GitHub repository Settings → Pages → Deploy from a branch → `main` → `/ (root)`. `.nojekyll` keeps this a plain static site. Updates to the files on main are published by GitHub Pages.
+
+## Buenos Aires PDF update (2026-10-22)
+
+Imported the sightseeing stops, food recommendations, two hotels, Palermo Soho lodging advice, transport notes, and two-day itinerary. Grouped Puerto Madero with Puente de la Mujer, and La Boca with Caminito and La Bombonera. The Sunday fair remains separate from the covered Mercado de San Telmo. Corrected Café Tortoni’s spelling and the route’s direction to Congreso. Historic hotel prices, refund promises, card-portal availability, and unverified reception claims were omitted. The private Airbnb wishlist link, wedding links, private Notion pages, the raw PDF, and the map editing URL were not published. The original PDF’s map can be considered separately for a future map integration.

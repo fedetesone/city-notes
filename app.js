@@ -2,7 +2,7 @@
   'use strict';
   const {cities, places} = window.CITY_GUIDE;
   const $ = id => document.getElementById(id);
-  const categories = ['All','Restaurants','Cafés & sweets','Bars','Things to do','Outdoors'];
+  const categories = ['All','Restaurants','Cafés & sweets','Bars','Things to do','Outdoors','Stays'];
   let city = new URLSearchParams(location.search).get('city');
   if (!cities[city]) city = 'ba';
   let category = 'All', onlySaved = false, saved = new Set();
@@ -33,6 +33,13 @@
     const info=cities[city]; $('city-title').innerHTML=info.headline; $('city-description').textContent=info.description; $('city-code').textContent=info.code; $('city-note').textContent=info.note; document.title=`${info.name} — City Notes`;
     $('neighborhood').replaceChildren(new Option('All neighborhoods','')); [...new Set(places.filter(p=>p.city===city).map(p=>p.area))].sort().forEach(a=>$('neighborhood').add(new Option(a,a)));
     $('walk-title').textContent=info.walkTitle; $('walk-description').textContent=info.walkDescription; $('walk-stops').replaceChildren(...info.stops.map(s=>element('li','',s)));
+    $('planning').hidden=!info.planning?.length;
+    $('planning').style.display=info.planning?.length?'':'none';
+    $('planning-notes').replaceChildren(...(info.planning||[]).map(note=>{
+      const item=element('div','planning-note'); item.append(element('h3','',note.title),element('p','',note.text));
+      if(note.url) item.append(link(note.label,note.url));
+      return item;
+    }));
     [...$('cities').children].forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.city===city)));
     const url=new URL(location.href); url.searchParams.set('city',city); history.replaceState(null,'',url); render();
   }
