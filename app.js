@@ -13,7 +13,8 @@
   const staticAttributes=[];
   document.querySelectorAll('[aria-label],[placeholder]').forEach(el=>['aria-label','placeholder'].forEach(attr=>{if(el.hasAttribute(attr)) staticAttributes.push([el,attr,el.getAttribute(attr)]);}));
   function applyLanguage() {
-    document.documentElement.lang=language; $('language').value=language;
+    document.documentElement.lang=language;
+    [...$('language').children].forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.language===language)));
     staticCopy.forEach(([node,original])=>{node.textContent=original.replace(original.trim(),t(original.trim()));});
     staticAttributes.forEach(([el,attr,original])=>el.setAttribute(attr,t(original)));
     [...$('categories').children].forEach(b=>b.textContent=t(b.dataset.category));
@@ -79,7 +80,7 @@
   $('search').addEventListener('input',render); $('neighborhood').addEventListener('change',render);
   $('shortlist').addEventListener('click',()=>{onlySaved=!onlySaved;render();});
   $('reset').addEventListener('click',()=>{category='All';onlySaved=false;onlyRecommended=false;$('search').value='';$('neighborhood').value='';render();$('search').focus();});
-  $('language').addEventListener('change',()=>{language=$('language').value;try{localStorage.setItem('city-notes-language',language);}catch{}applyLanguage();setCity(city,false);});
+  [...$('language').children].forEach(button=>button.addEventListener('click',()=>{language=button.dataset.language;try{localStorage.setItem('city-notes-language',language);}catch{}applyLanguage();setCity(city,false);}));
   applyLanguage();
   setCity(city);
 })();

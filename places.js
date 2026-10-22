@@ -6,9 +6,9 @@ window.CITY_GUIDE = {
       "code": "BA",
       "headline": "Buenos<br>Aires.",
       "description": "Long lunches, café tables, and a little room to wander. Start with a few classics. Make the rest your own.",
-      "note": "Fede’s picks, recommendations from the Buenos Aires PDF, and a few researched starting points.",
+      "note": "Personal picks and good places to eat, drink, and explore in Buenos Aires.",
       "walkTitle": "Buenos Aires in two or three days",
-      "walkDescription": "Adapted from the PDF’s two-day plan, which estimates more than 30,000 steps overall. Spread it over three days if you prefer, and use cars between the more distant neighborhoods. Day-one stops are grouped geographically rather than following the PDF’s eastbound direction to Congreso.",
+      "walkDescription": "A route through the city’s classic sights, grouped by neighborhood. Spread it over three days for a gentler pace, and use cars between the more distant stops.",
       "stops": [
         "Day 1: breakfast at Café Tortoni; visit Congreso separately to the west",
         "Day 1: Plaza de Mayo, Cabildo, cathedral & Casa Rosada",
@@ -22,15 +22,15 @@ window.CITY_GUIDE = {
       "planning": [
         {
           "title": "Where to stay",
-          "text": "The PDF recommends Palermo Soho as a base for restaurants and independent shops. The two hotel suggestions are in the Stays filter. Check current rates and cancellation terms before booking."
+          "text": "Palermo Soho is a convenient base for restaurants and independent shops. The two hotel suggestions are in the Stays filter. Check current rates and cancellation terms before booking."
         },
         {
           "title": "Getting around",
-          "text": "The PDF suggests Uber or Cabify for rides around town and a prearranged car service from Ezeiza. It does not identify an airport-transfer provider in this document."
+          "text": "Consider Uber or Cabify for rides around town, and book an airport transfer from Ezeiza ahead of time."
         },
         {
           "title": "The La Boca leg",
-          "text": "Follow the PDF’s transport plan: take a car or rideshare to La Boca and back instead of walking all the way from Recoleta or the other distant stops. Plan around your chosen venues’ visiting hours."
+          "text": "Take a car or rideshare to La Boca and back instead of walking all the way from Recoleta or the other distant stops. Plan around your chosen venues’ visiting hours."
         }
       ]
     },
@@ -68,8 +68,8 @@ window.CITY_GUIDE = {
       "name": "Café Tortoni",
       "category": "Cafés & sweets",
       "area": "Monserrat",
-      "description": "Start the PDF’s first-day outing with breakfast at this historic café on Avenida de Mayo. Continue toward Plaza de Mayo, or make a separate westward detour to Congreso.",
-      "source": "Buenos Aires PDF + starter research",
+      "description": "Start your first day with breakfast at this historic café on Avenida de Mayo. Continue toward Plaza de Mayo, or make a separate westward detour to Congreso.",
+      "source": "City Notes selection",
       "website": "https://buenosaires.gob.ar/gcaba_historico/cafe-tortoni",
       "fedeRecommends": true
     },
@@ -99,8 +99,8 @@ window.CITY_GUIDE = {
       "name": "El Rosedal",
       "category": "Outdoors",
       "area": "Palermo",
-      "description": "The PDF’s starting point for day two: a rose-garden and lakeside stroll in Palermo before continuing to Recoleta.",
-      "source": "Buenos Aires PDF + starter research",
+      "description": "Start day two with a rose-garden and lakeside stroll in Palermo before continuing to Recoleta.",
+      "source": "City Notes selection",
       "website": "https://buenosaires.gob.ar/areas/med_ambiente/parque_3_de_febrero/rosedal/",
       "fedeRecommends": true
     },
@@ -120,8 +120,8 @@ window.CITY_GUIDE = {
       "name": "Palermo Soho",
       "category": "Outdoors",
       "area": "Palermo",
-      "description": "The PDF’s recommended base for a stay: browse independent-design boutiques, cafés, and restaurants, then explore the neighborhood on foot.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "A great base for a stay: browse independent-design boutiques, cafés, and restaurants, then explore the neighborhood on foot.",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -130,8 +130,8 @@ window.CITY_GUIDE = {
       "name": "Nuss Buenos Aires Soho",
       "category": "Stays",
       "area": "Palermo",
-      "description": "A hotel option from the PDF at El Salvador 4916. Check current room rates, services, and cancellation conditions directly with the hotel.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "A hotel option at El Salvador 4916. Check current room rates, services, and cancellation conditions directly with the hotel.",
+      "source": "City Notes selection · October 2026",
       "website": "https://nusshotel.com/",
       "query": "Nuss Buenos Aires Soho El Salvador 4916 Buenos Aires"
     },
@@ -142,7 +142,7 @@ window.CITY_GUIDE = {
       "category": "Stays",
       "area": "Palermo",
       "description": "A boutique lodging option at Thames 1565, near Plaza Serrano. Check reception arrangements, current rates, and cancellation terms before booking.",
-      "source": "Buenos Aires PDF · October 2026",
+      "source": "City Notes selection · October 2026",
       "website": "https://5411soho.com.ar/",
       "query": "5411 Soho Thames 1565 Buenos Aires"
     },
@@ -152,8 +152,8 @@ window.CITY_GUIDE = {
       "name": "Cabildo de Buenos Aires",
       "category": "Things to do",
       "area": "Monserrat",
-      "description": "The colonial-era town hall on Plaza de Mayo. Pair this stop with the cathedral and Casa Rosada from the PDF’s city-center route.",
-      "source": "Buenos Aires PDF · October 2026"
+      "description": "The colonial-era town hall on Plaza de Mayo. Pair this stop with the cathedral and Casa Rosada on a walk through the historic center.",
+      "source": "City Notes selection · October 2026"
     },
     {
       "id": "ba-catedral",
@@ -161,8 +161,8 @@ window.CITY_GUIDE = {
       "name": "Catedral Metropolitana",
       "category": "Things to do",
       "area": "San Nicolás",
-      "description": "The cathedral beside Plaza de Mayo, included in the PDF’s government-landmark walk. A natural stop while exploring the historic center.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "The cathedral beside Plaza de Mayo, surrounded by historic government landmarks. A natural stop while exploring the historic center.",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -171,8 +171,8 @@ window.CITY_GUIDE = {
       "name": "Congreso de la Nación",
       "category": "Things to do",
       "area": "Balvanera",
-      "description": "Take in the monumental parliament building and surrounding plaza. It lies west of Café Tortoni, so treat it as its own stop rather than following the PDF’s eastbound direction.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "Take in the monumental parliament building and surrounding plaza. It lies west of Café Tortoni, so plan it as a separate stop.",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -181,8 +181,8 @@ window.CITY_GUIDE = {
       "name": "Plaza de Mayo",
       "category": "Outdoors",
       "area": "Monserrat",
-      "description": "The historic square at the heart of the PDF’s first-day route. Look around for the Cabildo, Metropolitan Cathedral, and Casa Rosada.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "The historic square at the heart of the historic center. Look around for the Cabildo, Metropolitan Cathedral, and Casa Rosada.",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -192,7 +192,7 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "Monserrat",
       "description": "See the pink presidential palace from Plaza de Mayo. Plan this as an exterior landmark stop; check official arrangements separately if you want to visit inside.",
-      "source": "Buenos Aires PDF · October 2026",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -201,8 +201,8 @@ window.CITY_GUIDE = {
       "name": "Pizzería Güerrín",
       "category": "Restaurants",
       "area": "San Nicolás",
-      "description": "The PDF’s Corrientes pizza stop. Try Buenos Aires-style pizza and consider a slice of fainá alongside it.",
-      "source": "Buenos Aires PDF · October 2026"
+      "description": "A classic pizza stop on Corrientes. Try Buenos Aires-style pizza and consider a slice of fainá alongside it.",
+      "source": "City Notes selection · October 2026"
     },
     {
       "id": "ba-obelisco",
@@ -211,7 +211,7 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "San Nicolás",
       "description": "A landmark stop where Corrientes meets Avenida 9 de Julio. Combine it with Güerrín and Teatro Colón on the city-center route.",
-      "source": "Buenos Aires PDF · October 2026",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -220,8 +220,8 @@ window.CITY_GUIDE = {
       "name": "Teatro Colón",
       "category": "Things to do",
       "area": "San Nicolás",
-      "description": "The opera-house stop from the PDF. Look into a guided tour or a performance and check current availability before planning your visit.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "An iconic opera house. Look into a guided tour or a performance and check current availability before planning your visit.",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -230,8 +230,8 @@ window.CITY_GUIDE = {
       "name": "Calle Florida",
       "category": "Outdoors",
       "area": "San Nicolás / Retiro",
-      "description": "Walk along the central shopping street toward Galerías Pacífico, as suggested in the PDF’s first-day itinerary.",
-      "source": "Buenos Aires PDF · October 2026"
+      "description": "Walk along the central shopping street toward Galerías Pacífico, taking time to browse along the way.",
+      "source": "City Notes selection · October 2026"
     },
     {
       "id": "ba-galerias",
@@ -239,8 +239,8 @@ window.CITY_GUIDE = {
       "name": "Galerías Pacífico",
       "category": "Things to do",
       "area": "San Nicolás",
-      "description": "A shopping-gallery stop on Florida. The PDF highlights the ceiling murals as a reason to look up while browsing.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "A shopping-gallery stop on Florida. Look up at the ceiling murals while browsing.",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -249,8 +249,8 @@ window.CITY_GUIDE = {
       "name": "Puerto Madero & Puente de la Mujer",
       "category": "Outdoors",
       "area": "Puerto Madero",
-      "description": "Walk the waterfront and look for the distinctive white pedestrian bridge. This is the PDF’s modern-city contrast to the historic center.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "Walk the waterfront and look for the distinctive white pedestrian bridge. A modern contrast to the historic center.",
+      "source": "City Notes selection · October 2026",
       "query": "Puente de la Mujer Buenos Aires",
       "fedeRecommends": true
     },
@@ -260,8 +260,8 @@ window.CITY_GUIDE = {
       "name": "San Telmo & its Sunday fair",
       "category": "Outdoors",
       "area": "San Telmo",
-      "description": "Explore the cobblestone streets and antique stalls around Plaza Dorrego. The PDF suggests Sunday for the fair, with the possibility of seeing tango in the area.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "Explore the cobblestone streets and antique stalls around Plaza Dorrego. Visit on Sunday for the fair and the possibility of seeing tango in the area.",
+      "source": "City Notes selection · October 2026",
       "query": "Plaza Dorrego San Telmo Buenos Aires"
     },
     {
@@ -271,8 +271,8 @@ window.CITY_GUIDE = {
       "query": "Recoleta Buenos Aires",
       "category": "Outdoors",
       "area": "Recoleta",
-      "description": "A neighborhood walk for grand boulevards, architecture, and boutiques. The PDF pairs it with the law faculty and the cemetery.",
-      "source": "Buenos Aires PDF · October 2026"
+      "description": "A neighborhood walk for grand boulevards, architecture, and boutiques. Pair it with the law faculty and the cemetery.",
+      "source": "City Notes selection · October 2026"
     },
     {
       "id": "ba-facultad",
@@ -280,8 +280,8 @@ window.CITY_GUIDE = {
       "name": "Facultad de Derecho",
       "category": "Things to do",
       "area": "Recoleta",
-      "description": "An architecture stop at the imposing law-school building, suggested as part of the PDF’s Recoleta outing.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "An architecture stop at the imposing law-school building, a natural stop on a walk through Recoleta.",
+      "source": "City Notes selection · October 2026",
       "query": "Facultad de Derecho UBA Buenos Aires",
       "fedeRecommends": true
     },
@@ -291,8 +291,8 @@ window.CITY_GUIDE = {
       "name": "Cementerio de la Recoleta",
       "category": "Things to do",
       "area": "Recoleta",
-      "description": "The historic cemetery from the PDF’s second-day route, where many notable Argentines are buried. Check current visiting hours and entry requirements.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "The historic cemetery in Recoleta, where many notable Argentines are buried. Check current visiting hours and entry requirements.",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -301,8 +301,8 @@ window.CITY_GUIDE = {
       "name": "Caminito",
       "category": "Outdoors",
       "area": "La Boca",
-      "description": "Colorful façades and tango atmosphere in La Boca. The PDF recommends taking a car or rideshare into the neighborhood and back, rather than walking the whole way from the other stops.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "Colorful façades and tango atmosphere in La Boca. Plan on taking a car or rideshare into the neighborhood and back, rather than walking the whole way from the other stops.",
+      "source": "City Notes selection · October 2026",
       "fedeRecommends": true
     },
     {
@@ -311,8 +311,8 @@ window.CITY_GUIDE = {
       "name": "La Bombonera",
       "category": "Things to do",
       "area": "La Boca",
-      "description": "Boca Juniors’ stadium, paired with Caminito in the PDF. Check current museum or tour access before going; a match visit needs separate planning.",
-      "source": "Buenos Aires PDF · October 2026"
+      "description": "Boca Juniors’ stadium, easy to pair with a visit to Caminito. Check current museum or tour access before going; a match visit needs separate planning.",
+      "source": "City Notes selection · October 2026"
     },
     {
       "id": "ba-paila",
@@ -320,8 +320,8 @@ window.CITY_GUIDE = {
       "name": "La Paila",
       "category": "Restaurants",
       "area": "Palermo",
-      "description": "The PDF’s evening suggestion for northern Argentine food and folkloric music at Costa Rica 4848. Confirm the current live-show program before making plans.",
-      "source": "Buenos Aires PDF · October 2026",
+      "description": "An evening option for northern Argentine food and folkloric music at Costa Rica 4848. Confirm the current live-show program before making plans.",
+      "source": "City Notes selection · October 2026",
       "query": "La Paila Costa Rica 4848 Buenos Aires"
     },
     {
