@@ -46,7 +46,7 @@
       const top=element('div','place-top'); top.append(element('span','category',t(p.category)));
       const save=element('button','save',saved.has(p.id)?'♥':'♡'); save.type='button'; save.setAttribute('aria-label',language==='es'?`${saved.has(p.id)?'Quitar':'Guardar'} ${t(p.name)} ${saved.has(p.id)?'de':'en'} favoritos`:`${saved.has(p.id)?'Remove':'Save'} ${p.name}${saved.has(p.id)?' from':' to'} shortlist`); save.setAttribute('aria-pressed',String(saved.has(p.id)));
       save.addEventListener('click',()=>{ saved.has(p.id)?saved.delete(p.id):saved.add(p.id); try{localStorage.setItem('city-notes-shortlist',JSON.stringify([...saved]));}catch{} const index=shown.indexOf(p); render(); const buttons=$('places').querySelectorAll('.save'); if(buttons.length) buttons[Math.min(index,buttons.length-1)].focus(); else $('shortlist').focus(); });
-      top.append(save); card.append(top); if(p.fedeRecommends) card.append(recommendationBadge('div','fede-badge')); card.append(element('h3','',t(p.name)),element('p','area',t(p.area)),element('p','description',t(p.description)),element('p','source',t(p.source)));
+      const actions=element('div','place-actions'); if(p.fedeRecommends) actions.append(recommendationBadge('div','fede-badge')); actions.append(save); top.append(actions); card.append(top); card.append(element('h3','',t(p.name)),element('p','area',t(p.area)),element('p','description',t(p.description)),element('p','source',t(p.source)));
       const links=element('div','links'); links.append(link(t('Open in Maps ↗'),p.maps || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.query || `${p.name} ${p.area} ${cities[p.city].name}`)}`)); if(p.website) links.append(link(t('More info ↗'),p.website)); card.append(links); $('places').append(card);
     });
     $('result-count').textContent=language==='es'?`${shown.length} ${shown.length===1?'lugar':'lugares'} en ${t(cities[city].name)}${onlySaved?' · en tus favoritos':''}`:`${shown.length} ${shown.length===1?'place':'places'} in ${cities[city].name}${onlySaved?' · on your shortlist':''}`;
@@ -59,7 +59,7 @@
   function setCity(next, reset=true) {
     const previousArea=$('neighborhood').value;
     city=next; if(reset) {category='All'; onlyRecommended=false; $('search').value='';}
-    const info=cities[city]; $('city-title').innerHTML=t(info.headline); $('city-description').textContent=t(info.description); $('city-code').textContent=info.code; $('city-note').textContent=t(info.note); document.title=`${t(info.name)} — City Notes`;
+    const info=cities[city]; $('city-title').innerHTML=t(info.headline).replace('<br>',' '); $('city-description').textContent=t(info.description); $('city-code').textContent=info.code; $('city-note').textContent=t(info.note); document.title=`${t(info.name)} — City Notes`;
     $('neighborhood').replaceChildren(new Option(t('All neighborhoods'),'')); [...new Set(places.filter(p=>p.city===city).map(p=>p.area))].sort().forEach(a=>$('neighborhood').add(new Option(t(a),a)));
     if(!reset) $('neighborhood').value=previousArea;
     $('walk-title').textContent=t(info.walkTitle); $('walk-description').textContent=t(info.walkDescription); $('walk-stops').replaceChildren(...info.stops.map(s=>element('li','',t(s))));
