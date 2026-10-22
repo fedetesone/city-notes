@@ -412,6 +412,17 @@ window.CITY_GUIDE = {
       "query": "Niño Gordo Thames 1810 Buenos Aires"
     },
     {
+      "id": "ba-cuartito",
+      "city": "ba",
+      "name": "El Cuartito",
+      "category": "Restaurants",
+      "area": "Retiro",
+      "description": "A classic Buenos Aires pizzeria at Talcahuano 937, serving pizza since 1934. A personal pick for a casual lunch or dinner.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "El Cuartito Talcahuano 937 Buenos Aires",
+      "website": "https://elcuartito.com.ar/"
+    },
+    {
       "id": "ny-spain",
       "city": "nyc",
       "name": "Mercado Little Spain",
