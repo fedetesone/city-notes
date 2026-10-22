@@ -6,7 +6,7 @@ window.CITY_GUIDE = {
       "code": "BA",
       "headline": "Buenos<br>Aires.",
       "description": "Long lunches, café tables, and a little room to wander. Start with a few classics. Make the rest your own.",
-      "note": "Personal recommendations from the Buenos Aires PDF, alongside our original starter picks.",
+      "note": "Fede’s picks, recommendations from the Buenos Aires PDF, and a few researched starting points.",
       "walkTitle": "Buenos Aires in two or three days",
       "walkDescription": "Adapted from the PDF’s two-day plan, which estimates more than 30,000 steps overall. Spread it over three days if you prefer, and use cars between the more distant neighborhoods. Day-one stops are grouped geographically rather than following the PDF’s eastbound direction to Congreso.",
       "stops": [
@@ -59,7 +59,7 @@ window.CITY_GUIDE = {
       "category": "Restaurants",
       "area": "Palermo",
       "description": "A parrilla to build dinner around. Add it to the list for a classic Buenos Aires steak night; plan your reservation ahead.",
-      "source": "Starter suggestion",
+      "source": "Fede’s recommendation · October 2026",
       "website": "https://www.donjulio.world/"
     },
     {
@@ -309,6 +309,88 @@ window.CITY_GUIDE = {
       "description": "The PDF’s evening suggestion for northern Argentine food and folkloric music at Costa Rica 4848. Confirm the current live-show program before making plans.",
       "source": "Buenos Aires PDF · October 2026",
       "query": "La Paila Costa Rica 4848 Buenos Aires"
+    },
+    {
+      "id": "ba-tres-monos",
+      "city": "ba",
+      "name": "Tres Monos",
+      "category": "Bars",
+      "area": "Palermo",
+      "description": "Cocktails in Palermo. A personal pick for a night out around the neighborhood.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "Tres Monos Guatemala 4899 Buenos Aires"
+    },
+    {
+      "id": "ba-cochinchina",
+      "city": "ba",
+      "name": "CoChinChina",
+      "category": "Bars",
+      "area": "Palermo",
+      "description": "A cocktail stop in Palermo Soho, recommended for the Buenos Aires bar list.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "CoChinChina Armenia 1540 Buenos Aires"
+    },
+    {
+      "id": "ba-boticario",
+      "city": "ba",
+      "name": "Boticario",
+      "category": "Bars",
+      "area": "Palermo",
+      "description": "An apothecary-inspired cocktail bar. Add it to a Palermo evening for drinks in a distinctive setting.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "Boticario Honduras 5207 Buenos Aires"
+    },
+    {
+      "id": "ba-jw-bradley",
+      "city": "ba",
+      "name": "J.W. Bradley",
+      "category": "Bars",
+      "area": "Palermo",
+      "description": "A train-themed speakeasy in Palermo. A personal recommendation for cocktails and an atmospheric night out.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "J.W. Bradley Godoy Cruz 1875 Buenos Aires"
+    },
+    {
+      "id": "ba-victor",
+      "city": "ba",
+      "name": "Victor Audio Bar",
+      "category": "Bars",
+      "area": "Palermo",
+      "description": "A music-focused bar with cocktails and a listening-bar atmosphere. A personal pick for a Palermo night out.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "Victor Audio Bar Soler 5130 Buenos Aires"
+    },
+    {
+      "id": "ba-ferneteria",
+      "city": "ba",
+      "name": "La Ferneteria — Palermo Soho",
+      "category": "Bars",
+      "area": "Palermo",
+      "description": "The Palermo Soho location of La Ferneteria. A personal recommendation for drinks around Serrano.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "La Ferneteria — Palermo Soho Serrano 1349 Buenos Aires",
+      "website": "https://www.laferneteria.com/palermo"
+    },
+    {
+      "id": "ba-preferido",
+      "city": "ba",
+      "name": "El Preferido de Palermo",
+      "category": "Restaurants",
+      "area": "Palermo",
+      "description": "A personal pick for classic porteño cooking in Palermo. Keep it in mind for a leisurely lunch or dinner.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "El Preferido de Palermo Jorge Luis Borges 2108 Buenos Aires",
+      "website": "https://turismo.buenosaires.gob.ar/es/gastronomico/el-preferido-de-palermo"
+    },
+    {
+      "id": "ba-nino-gordo",
+      "city": "ba",
+      "name": "Niño Gordo",
+      "category": "Restaurants",
+      "area": "Palermo",
+      "description": "A personal restaurant recommendation in Palermo. Plan a meal here as part of an afternoon or evening around Thames.",
+      "source": "Fede’s recommendation · October 2026",
+      "query": "Niño Gordo Thames 1810 Buenos Aires"
     },
     {
       "id": "ny-spain",
