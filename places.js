@@ -70,7 +70,8 @@ window.CITY_GUIDE = {
       "area": "Monserrat",
       "description": "Start the PDF’s first-day outing with breakfast at this historic café on Avenida de Mayo. Continue toward Plaza de Mayo, or make a separate westward detour to Congreso.",
       "source": "Buenos Aires PDF + starter research",
-      "website": "https://buenosaires.gob.ar/gcaba_historico/cafe-tortoni"
+      "website": "https://buenosaires.gob.ar/gcaba_historico/cafe-tortoni",
+      "fedeRecommends": true
     },
     {
       "id": "ba-violetas",
@@ -100,7 +101,8 @@ window.CITY_GUIDE = {
       "area": "Palermo",
       "description": "The PDF’s starting point for day two: a rose-garden and lakeside stroll in Palermo before continuing to Recoleta.",
       "source": "Buenos Aires PDF + starter research",
-      "website": "https://buenosaires.gob.ar/areas/med_ambiente/parque_3_de_febrero/rosedal/"
+      "website": "https://buenosaires.gob.ar/areas/med_ambiente/parque_3_de_febrero/rosedal/",
+      "fedeRecommends": true
     },
     {
       "id": "ba-mercado",
@@ -119,7 +121,8 @@ window.CITY_GUIDE = {
       "category": "Outdoors",
       "area": "Palermo",
       "description": "The PDF’s recommended base for a stay: browse independent-design boutiques, cafés, and restaurants, then explore the neighborhood on foot.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-nuss",
@@ -159,7 +162,8 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "San Nicolás",
       "description": "The cathedral beside Plaza de Mayo, included in the PDF’s government-landmark walk. A natural stop while exploring the historic center.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-congreso",
@@ -168,7 +172,8 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "Balvanera",
       "description": "Take in the monumental parliament building and surrounding plaza. It lies west of Café Tortoni, so treat it as its own stop rather than following the PDF’s eastbound direction.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-plaza-mayo",
@@ -177,7 +182,8 @@ window.CITY_GUIDE = {
       "category": "Outdoors",
       "area": "Monserrat",
       "description": "The historic square at the heart of the PDF’s first-day route. Look around for the Cabildo, Metropolitan Cathedral, and Casa Rosada.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-casa-rosada",
@@ -186,7 +192,8 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "Monserrat",
       "description": "See the pink presidential palace from Plaza de Mayo. Plan this as an exterior landmark stop; check official arrangements separately if you want to visit inside.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-guerrin",
@@ -204,7 +211,8 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "San Nicolás",
       "description": "A landmark stop where Corrientes meets Avenida 9 de Julio. Combine it with Güerrín and Teatro Colón on the city-center route.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-colon",
@@ -213,7 +221,8 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "San Nicolás",
       "description": "The opera-house stop from the PDF. Look into a guided tour or a performance and check current availability before planning your visit.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-florida",
@@ -231,7 +240,8 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "San Nicolás",
       "description": "A shopping-gallery stop on Florida. The PDF highlights the ceiling murals as a reason to look up while browsing.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-puente",
@@ -241,7 +251,8 @@ window.CITY_GUIDE = {
       "area": "Puerto Madero",
       "description": "Walk the waterfront and look for the distinctive white pedestrian bridge. This is the PDF’s modern-city contrast to the historic center.",
       "source": "Buenos Aires PDF · October 2026",
-      "query": "Puente de la Mujer Buenos Aires"
+      "query": "Puente de la Mujer Buenos Aires",
+      "fedeRecommends": true
     },
     {
       "id": "ba-san-telmo-feria",
@@ -271,7 +282,8 @@ window.CITY_GUIDE = {
       "area": "Recoleta",
       "description": "An architecture stop at the imposing law-school building, suggested as part of the PDF’s Recoleta outing.",
       "source": "Buenos Aires PDF · October 2026",
-      "query": "Facultad de Derecho UBA Buenos Aires"
+      "query": "Facultad de Derecho UBA Buenos Aires",
+      "fedeRecommends": true
     },
     {
       "id": "ba-cementerio",
@@ -280,7 +292,8 @@ window.CITY_GUIDE = {
       "category": "Things to do",
       "area": "Recoleta",
       "description": "The historic cemetery from the PDF’s second-day route, where many notable Argentines are buried. Check current visiting hours and entry requirements.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-caminito",
@@ -289,7 +302,8 @@ window.CITY_GUIDE = {
       "category": "Outdoors",
       "area": "La Boca",
       "description": "Colorful façades and tango atmosphere in La Boca. The PDF recommends taking a car or rideshare into the neighborhood and back, rather than walking the whole way from the other stops.",
-      "source": "Buenos Aires PDF · October 2026"
+      "source": "Buenos Aires PDF · October 2026",
+      "fedeRecommends": true
     },
     {
       "id": "ba-bombonera",
@@ -318,7 +332,8 @@ window.CITY_GUIDE = {
       "area": "Palermo",
       "description": "Cocktails in Palermo. A personal pick for a night out around the neighborhood.",
       "source": "Fede’s recommendation · October 2026",
-      "query": "Tres Monos Guatemala 4899 Buenos Aires"
+      "query": "Tres Monos Guatemala 4899 Buenos Aires",
+      "fedeRecommends": true
     },
     {
       "id": "ba-cochinchina",
@@ -328,7 +343,8 @@ window.CITY_GUIDE = {
       "area": "Palermo",
       "description": "A cocktail stop in Palermo Soho, recommended for the Buenos Aires bar list.",
       "source": "Fede’s recommendation · October 2026",
-      "query": "CoChinChina Armenia 1540 Buenos Aires"
+      "query": "CoChinChina Armenia 1540 Buenos Aires",
+      "fedeRecommends": true
     },
     {
       "id": "ba-boticario",
@@ -348,7 +364,8 @@ window.CITY_GUIDE = {
       "area": "Palermo",
       "description": "A train-themed speakeasy in Palermo. A personal recommendation for cocktails and an atmospheric night out.",
       "source": "Fede’s recommendation · October 2026",
-      "query": "J.W. Bradley Godoy Cruz 1875 Buenos Aires"
+      "query": "J.W. Bradley Godoy Cruz 1875 Buenos Aires",
+      "fedeRecommends": true
     },
     {
       "id": "ba-victor",
@@ -369,7 +386,8 @@ window.CITY_GUIDE = {
       "description": "The Palermo Soho location of La Ferneteria. A personal recommendation for drinks around Serrano.",
       "source": "Fede’s recommendation · October 2026",
       "query": "La Ferneteria — Palermo Soho Serrano 1349 Buenos Aires",
-      "website": "https://www.laferneteria.com/palermo"
+      "website": "https://www.laferneteria.com/palermo",
+      "fedeRecommends": true
     },
     {
       "id": "ba-preferido",
@@ -380,7 +398,8 @@ window.CITY_GUIDE = {
       "description": "A personal pick for classic porteño cooking in Palermo. Keep it in mind for a leisurely lunch or dinner.",
       "source": "Fede’s recommendation · October 2026",
       "query": "El Preferido de Palermo Jorge Luis Borges 2108 Buenos Aires",
-      "website": "https://turismo.buenosaires.gob.ar/es/gastronomico/el-preferido-de-palermo"
+      "website": "https://turismo.buenosaires.gob.ar/es/gastronomico/el-preferido-de-palermo",
+      "fedeRecommends": true
     },
     {
       "id": "ba-nino-gordo",
