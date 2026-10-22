@@ -22,7 +22,7 @@ window.CITY_GUIDE = {
       "planning": [
         {
           "title": "Where to stay",
-          "text": "The PDF recommends Palermo Soho as a base for restaurants and independent shops. It suggests well-reviewed Airbnb Superhosts or the two hotels in the Stays filter. Check each listing’s current cancellation terms."
+          "text": "The PDF recommends Palermo Soho as a base for restaurants and independent shops. The two hotel suggestions are in the Stays filter. Check current rates and cancellation terms before booking."
         },
         {
           "title": "Getting around",
